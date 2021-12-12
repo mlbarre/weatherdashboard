@@ -28,8 +28,31 @@
       <p class="second-title">Check the current weather wherever you'd like.</p>
       <p id="currentDay"></p>
     </header>
-    <div id="container" class="second-title">
-    </div>
+
+    <main class="flex-row justify-space-between">
+      <div class="col-12 col-m-4">
+        <!-- SEARCH CITY FORM -->
+        <div class="search-city">
+          <h3 class="search-title"> Search by a City: </h3>
+          <form id="search-form" class="form-body">
+            <label class="form-label" for="city"></label>
+            <input name="city" id="city" type="text" autofocus="true" class="form-input" />
+            <button type="submit" class="btn"> Search </button>
+          </form>
+        </div>
+        <div class="select-city">
+          <button class="select-btn" id="austin"> Austin </button>
+          <button class="select-btn" id="el-paso"> El Paso </button>
+          <button class="select-btn" id="dallas"> Dallas </button>
+          <button class="select-btn" id="houston"> Houston </button>
+          <button class="select-btn" id="alamogordo"> Alamogordo </button>
+          <button class="select-btn" id="denver"> Denver </button>
+          <button class="select-btn" id="monroe"> Monroe </button>
+
+        </div>
+      </div>
+    </main>
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
