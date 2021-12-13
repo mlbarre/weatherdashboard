@@ -1,7 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+
 body {
     font-family: Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1;
+    display: block;
   }
   
   textarea{
@@ -19,57 +25,13 @@ body {
     background-image: linear-gradient(to right, blue, purple);
     color: white;
     border-radius: 0;
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid white;
   }
+
+
   
   .description{
     white-space: pre-wrap;
-  }
-  
-  .time-block{
-    text-align: center;
-    border-radius: 15px;
-  }
-
-
-  .row {
-    white-space: pre-wrap;
-    height: 80px;
-    border-top: 1px solid white;;
-  }
-  
-  .hour {
-    background-color: #ffffff;
-    color: #000000;
-    border-top: 1px dashed #000000;
-  }
-  
-  .past {
-    background-color: #d3d3d3;
-    color: white;
-  }
-  
-  .present {
-    background-color: #ff6961;
-    color: white;
-  }
-  
-  .future {
-    background-color: #77dd77;
-    color: white;
-  }
-  
-  .saveBtn {
-    border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #06AED5;
-    color: white;
-  }
-  
-  .saveBtn i:hover {
-    font-size: 20px;
-    transition: all .3s ease-in-out;
   }
 
 /* STYLE FOR CURRENTDAY */
@@ -79,8 +41,7 @@ body {
   }
 
   /* .search-city {
-    margin: 0 0 20px 0;
-    border: 3px solid #38302e;
+    display: flex;
   } */
 
 
@@ -124,6 +85,10 @@ body {
     color: blue;
     background-color: white;
   }
+/* 
+  .select-btn:after {
+    display: none;
+  } */
 
 
   /* FORM STYLES */
@@ -151,6 +116,7 @@ body {
   #city {
     border-color: lightgray;
   }
+
   /* .border {
     border: 1px solid lightgray;
     margin: 
@@ -160,4 +126,27 @@ body {
     margin: 30px 0 0 0;
     padding: 0 12px 0 0;
   }
+
+  .forecast-list {
+    padding: 0;
+    list-style: none;
+  }
+
+  /* .forecast {
+    margin: 0 50px 0 0;
+    padding: 1.5%;
+    border-radius: .3rem;
+  } */
+
+  /* CURRENT FORECAST CONTAINER */
+  .currentForecast {
+    float: left;
+  }
+
+  .subtitle {
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
 
