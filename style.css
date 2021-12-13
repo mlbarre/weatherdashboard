@@ -59,7 +59,7 @@ body {
     background-color: lightblue;
     display: block;
     border-radius: .3rem;
-    padding: 0 200px 0 205px;
+    padding: 0 200px 0 195px;
     margin: 2px 30px 0 0;
     border: 1px solid lightblue;
   }
@@ -85,6 +85,11 @@ body {
     color: blue;
     background-color: white;
   }
+
+  .select-city {
+    padding: 10px;
+  }
+
 /* 
   .select-btn:after {
     display: none;
@@ -92,12 +97,12 @@ body {
 
 
   /* FORM STYLES */
-
+/* 
   .form-label,
   .form-input,
   .form-textarea {
     display: block;
-  }
+  } */
 
   /* .form-label {
     font-size: 1.1rem;
@@ -139,9 +144,6 @@ body {
   } */
 
   /* CURRENT FORECAST CONTAINER */
-  .currentForecast {
-    float: left;
-  }
 
   .subtitle {
     color: black;

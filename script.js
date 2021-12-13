@@ -49,9 +49,9 @@ var getCityForecast = function(cities) {
             alert("City Not Found");
         }
     })
-    // .catch(function(error) {
-    //     alert("Unable to connect");
-    // })
+    .catch(function(error) {
+        alert("Unable to connect");
+    })
 };
 
 var formSubmitHandler = function(event) {
@@ -77,7 +77,11 @@ var formSubmitHandler = function(event) {
 
 var buttonClickHandler = function(event) {
     var selectCity = event.target.getAttribute("data-city");
-    console.log(selectCity);
+    // console.log(selectCity);
+
+    if (cities) {
+        
+    }
 }
 
 searchCityFormEl.addEventListener("submit", formSubmitHandler);
