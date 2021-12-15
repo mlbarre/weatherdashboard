@@ -8,6 +8,8 @@ var cityInputEl = document.querySelector("#city");
 var cityDisplayEl = document.querySelector("#forecast-display");
 var citySearch = document.querySelector("#city-search");
 
+// * STILL SLOWLY ADDING JAVASCRIPT - UNABLE TO GET DATA TO CONSOLE.LOG(); STILL HAVE TO WORK ON CSS FOR 5 DAY FORECAST CARDS *
+
 // var austinData = "http://api.openweathermap.org/data/2.5/forecast?q=Austin&appid=1f26c6c5c0847e359a210e9156b5d503";
 // fetch(austinData);
 // console.log(austinData);
